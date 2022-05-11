@@ -1,2 +1,2 @@
 # HYDRATION_DYNAMICS
-Fortran 90 programs and associated input files for analyzing water dynamics around protein from a NAMD generated MD trajectories.  
+Fortran 90 programs for analyzing water dynamics around protein from a NAMD generated MD trajectories. To run each of the program, a reference pdb file along with dcd formatted trajectories and an input file will be needed that will be basically used for selection. The sample input files for running each of the programs are provided here. Users need to modify the input file as per their need.   
