@@ -83,9 +83,6 @@ write(*,*)'nskip=======>',nskip
 write(*,'(1x,a)')'Type first & last resd no of the selected protein surface'
 read(*,*) ifirst,ilast
 write(*,*)'ifirst,ilast====>',ifirst,ilast
-write(*,'(1x,a)')'Type two end residue no'
-read(*,*)nfirst,nlast
-write(*,*)'nfirst,nlast=====>',nfirst,nlast
 write(*,'(1x,a)')'Enter the time gap betn two frames in ps'
 read(*,*)dtstep
 dtstep=dtstep*nskip
@@ -107,7 +104,6 @@ open(funit,file=flgfile,status='old',form='formatted',iostat=ios)
 npair=0
 do i=1,n_protein
 read(funit,'(12x,a4,1x,a4,1x,i4,50x,a2)')chr2,chr3,nres,chr4
-if(nres == nfirst.or.nres == nlast)cycle
 if(nres >= ifirst.and.nres <= ilast)then
 if(chr4 /= ' H')then
 npair=npair+1
