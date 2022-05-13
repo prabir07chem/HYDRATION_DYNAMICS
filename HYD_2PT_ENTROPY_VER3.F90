@@ -113,9 +113,9 @@ write(*,*)'nskip=======>',nskip
 write(*,'(1x,a)')'Type first & last resd no that to be analysed'
 read(*,*) ifirst,ilast
 write(*,*)'ifirst,ilast========>',ifirst,ilast
-write(*,'(1x,a)')'Type two end residue no'
-read(*,*)nfirst,nlast
-write(*,*)'nfirst,nlast=====>',nfirst,nlast
+!write(*,'(1x,a)')'Type two end residue no'
+!read(*,*)nfirst,nlast
+!write(*,*)'nfirst,nlast=====>',nfirst,nlast
 write(*,'(1x,a)')'Enter the inner and outer radius of selected region'
 read(*,*)rin,rout
 write(*,*)'rin,rout=========>',rin,rout
@@ -157,7 +157,7 @@ np=0
 do i=1,n_protein
 read(kunit,'(12x,a4,1x,a4,1x,i4,50x,a2)')chr2,chr3,nres,chr4
 if(chr4 == ' H')cycle
-if(nres == nfirst.or.nres == nlast)cycle
+!if(nres == nfirst.or.nres == nlast)cycle
 if(nres >= ifirst.and.nres <= ilast)then
 np=np+1
 if(np > maxinp)then

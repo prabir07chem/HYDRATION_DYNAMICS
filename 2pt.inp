@@ -1,0 +1,28 @@
+/home/prabir/A42_400/RESULT/A42_400K_cterm_2pt_trans_vacf.out
+/home/prabir/A42_400/RESULT/A42_400K_cterm_2pt_rot_vacf.out
+/home/prabir/A42_400/RESULT/A42_400K_cterm_2pt_trans_spec.out
+/home/prabir/A42_400/RESULT/A42_400K_cterm_2pt_rot_spec.out
+/home/prabir/A42_400/RESULT/A42_400K_cterm_2pt_entr.out
+3
+1 3 6586
+627 1 3
+4
+36 42
+0.0 5.0
+0.001
+300.0
+150 100
+0.051716
+5
+A42_400K_mono_wat_na.pdb
+5
+A42_400K_high_freq1.dcd   
+A42_400K_high_freq1.veldcd
+A42_400K_high_freq2.dcd   
+A42_400K_high_freq2.veldcd
+A42_400K_high_freq3.dcd   
+A42_400K_high_freq3.veldcd
+A42_400K_high_freq4.dcd   
+A42_400K_high_freq4.veldcd
+A42_400K_high_freq5.dcd   
+A42_400K_high_freq5.veldcd
